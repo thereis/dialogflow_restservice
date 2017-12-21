@@ -1,0 +1,27 @@
+{
+  "name": "dialogflow_restservice",
+  "version": "1.0.1",
+  "description": "Dialogflow POC",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node ./app.js --presets es2015,stage-2",
+  },
+  "devDependencies": {
+    "axios": "latest",
+    "body-parser": "^1.18.2",
+    "babel-core": "latest",
+    "babel-cli": "^6.26.0",
+    "babel-register": "latest",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-node6": "^11.0.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "debug": "^3.1.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "nodemon": "latest"
+  },
+  "author": "Lucas Dias",
+  "license": "ISC"
+}
