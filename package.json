@@ -1,10 +1,10 @@
 {
   "name": "dialogflow_restservice",
   "version": "1.0.1",
-  "description": "Dialogflow POC",
+  "description": "Dialogflow boilerplate",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon --exec babel-node ./app.js --presets es2015,stage-2",
+    "dev": "nodemon --exec babel-node ./app.js --presets es2015,stage-2"
   },
   "devDependencies": {
     "axios": "latest",
